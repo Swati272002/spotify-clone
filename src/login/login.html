@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/Spotify_Icon_RGB_Green.png" type="image/x-icon" />
     <title>Spotify Player</title>
     <link rel="stylesheet" href="../style.css" />
+    <style>
+        #mrg{
+            margin-top: 200px;
+        }
+    </style>
+    <!-- <script type="module" src="login.js"></script> -->
 </head>
-<body>
-    <h1 class="text-2xl font-bold underline ">Welcome to login</h1>
+<body class="bg-green">
+    <main id="mrg" class="w-full h-full flex justify-center items-center">
+        <section class="flex items-center flex-col gap-8">
+            <img class = "h-[20vh]" src="../assets/Spotify_Logo_RGB_Black.png" alt="Spotify Image" />
+            <input id="login-to-spotify" type="button" value="Login to Spotify" class="bg-black text-white w-64 h-12 rounded-md hover:cursor-pointer">
+        </section>
+    </main>
+    <script type="module" src="login.js"></script>
 </body>
 </html>
